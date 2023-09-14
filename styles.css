@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+}
+header {
+    margin-bottom: 5%;
+}
+
+.titlet {
+    font-size: 60px;
+}
+
+.btn {
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 50px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.number {
+    border: 1px solid greenyellow;
+}
+.operator {
+    border: 1px solid yellow;
+}
+.decimal {
+    border: 1px solid powderblue;
+}
+.equals {
+    border: 1px solid palevioletred;
+}
+.clear{
+    border: 1px solid pink;
+}
+
+.btn:hover {
+    background-color: rgba(90, 242, 247, 0.384);
+    scale: 1.1;
+    color: aqua;
+}
+.btn:active{
+    scale: 0.9;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#display{
+    width: 285px;
+    border: 1px solid sandybrown;
+    height: 75px;
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+.previous{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.current{
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
