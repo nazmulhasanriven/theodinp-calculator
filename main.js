@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function(){
             if(previousValue.length < 18){
                 currentDisplay.textContent = previousValue;
             } else{
-                currentDisplay.textContent = previousValue.slice(0,18) + "...";
+                currentDisplay.textContent = previousValue.slice(0,17) + "...";
             }
         }
     });
